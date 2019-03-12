@@ -1,0 +1,16 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: red;
+  height: 100vh;
+  width: 10vw;
+}
+.header {
+  position: fixed;
+  display: none;
+}
+.sidebar h1 {
+  transform: rotate(-90deg);
+  width: 600px;
+}
