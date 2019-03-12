@@ -1,6 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
-import Sidebar from "../components/sidebar"
+import Sidebar from "./sidebar"
+import sidebarStyles from "./sidebar.module.css"
+import Logo from "../../content/assets/logo.svg"
 
 import { rhythm, scale } from "../utils/typography"
 
@@ -9,13 +11,16 @@ class Layout extends React.Component {
     const { title, children } = this.props
     let sidebar
       sidebar = (
+        <div className={sidebarStyles.sidebarContainer}>
         <div
-         >
+          className={sidebarStyles.logo}
+        >
+          <Link to={'/'} />
+        </div>
         <h1
           style={{
-            ...scale(1.5),
-            marginBottom: 0,
-            marginTop: 0,
+            ...scale(.3),
+            margin: 0,
           }}
         >
           <Link
@@ -24,7 +29,7 @@ class Layout extends React.Component {
               textDecoration: `none`,
               color: `inherit`,
             }}
-            to={`/`}
+            to={'/'}
           >
             {title}
           </Link>

@@ -1,4 +1,5 @@
 import Typography from "typography"
+import GTAme from "../fonts/gtame.ttf"
 
 const typography = new Typography({
   baseFontSize: "24px",
@@ -6,15 +7,12 @@ const typography = new Typography({
   scaleRatio: 2,
   googleFonts: [
     {
-      name: "Open Sans",
-      styles: ["400"],
-    },
-    {
       name: "Inconsolata",
       styles: ["400"],
     },
   ],
-  bodyFontFamily: ["Open Sans"],
+  bodyFontFamily: ["GTAme","Helvetica Neue","serif"],
+  headerFontFamily: ["GTAme","Helvetica Neue","serif"],
   bodyColor: "hsla(0,0%,0%,0.8)",
   headerWeight: 400,
   bodyWeight: 400,
