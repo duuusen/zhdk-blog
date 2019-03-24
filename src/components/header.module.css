@@ -1,0 +1,32 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100px;
+  border-right: 1px solid #000;
+}
+.sidebarContainer {
+  position: relative;
+  height: 100%;
+  width: 100px;
+}
+.sidebar h1 {
+  position: absolute;
+  bottom: 180px;
+  left: -100px;
+  transform: matrix(0, -1, 1, 0, 0, 0); /* waaaay better than rotate */ 
+  width: 300px;
+}
+.logo {
+  position: absolute;
+  background: url(../../content/assets/logo.svg) no-repeat;
+  background-size: contain;
+  background-position: center top;
+ }
+.logo, .logo a {
+  display: block;
+  top: 30px;
+  width: 100%;
+  height: 85px;
+}
