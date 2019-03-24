@@ -1,39 +1,62 @@
 import React from "react"
 import { Link } from "gatsby"
-import Sidebar from "./sidebar"
-import sidebarStyles from "./sidebar.module.css"
+import Header from "./header"
+import headerStyles from "./header.module.css"
 // import Logo from "../../content/assets/logo.svg"
 
 import { rhythm, scale } from "../utils/typography"
 
 class Layout extends React.Component {
   render() {
-    const { title, children } = this.props
-    let sidebar
-      sidebar = (
-        <div className={sidebarStyles.sidebarContainer}>
-        <div className={sidebarStyles.logo}>
-          <Link to={'/'} />
-        </div>
-        <h1
-          style={{
-            ...scale(.3),
-            margin: 0,
-          }}
-        >
-          <Link
-            style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
-            }}
-            to={'/'}
-          >
-            {title}
-          </Link>
-        </h1>
-        </div>
-      )
+    const { location, title, children } = this.props
+    const rootPath = `${__PATH_PREFIX__}/`
+    let header
+    if (location.pathname === rootPath) {
+
+  header = (
+    <h1
+      style={{
+        ...scale(1.5),
+        marginBottom: rhythm(1.5),
+        marginTop: 0,
+      }}
+    >
+    <div className={headerStyles.logo}>
+      <Link to={'/'} />
+    </div>
+      <Link
+        style={{
+          boxShadow: `none`,
+          textDecoration: `none`,
+          color: `inherit`,
+        }}
+        to={`/`}
+      >
+        {title}
+      </Link>
+    </h1>
+  )
+} else {
+  header = (
+    <h3
+      style={{
+        fontFamily: `Montserrat, sans-serif`,
+        marginTop: 0,
+      }}
+    >
+      <Link
+        style={{
+          boxShadow: `none`,
+          textDecoration: `none`,
+          color: `inherit`,
+        }}
+        to={`/`}
+      >
+        {title}
+      </Link>
+    </h3>
+  )
+}
     return (
       <div
         style={{
@@ -44,12 +67,11 @@ class Layout extends React.Component {
             overrideStyles: ({ adjustFontSizeTo, rhythm }, options, styles) => ({
                       'h1, h2, h3, h4, h5': {
                                     color: '#f44242'
-                                },
-                      '@media screen and (min-width: 760px){h3{font-size:200px}}': {},
+                                }
                   })
         }}
       >
-        <Sidebar>{sidebar}</Sidebar>
+        <Header>{header}</Header>
         <main>{children}</main>
         <footer>
           © {new Date().getFullYear()}, Built with
@@ -61,4 +83,3 @@ class Layout extends React.Component {
   }
 }
 export default Layout
-

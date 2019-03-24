@@ -1,6 +1,6 @@
 import React from "react"
-import sidebarStyles from "./sidebar.module.css"
+import headerStyles from "./header.module.css"
 
 export default ({ children }) => (
-    <aside className={sidebarStyles.sidebar}>{children}</aside>
+    <aside className={headerStyles.header}>{children}</aside>
 )
