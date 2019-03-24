@@ -31,7 +31,7 @@ class Layout extends React.Component {
           marginLeft: `auto`,
           marginRight: `auto`,
           maxWidth: rhythm(24),
-          padding: `${rhythm(1.6)} ${rhythm(3 / 4)}`,
+          padding: `${rhythm(3 / 4)}`,
             overrideStyles: ({ adjustFontSizeTo, rhythm }, options, styles) => ({
               'h1, h2, h3, h4, h5': {
                 color: '#f44242'
@@ -41,11 +41,6 @@ class Layout extends React.Component {
       >
         {header}
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
       </div>
     )
   }
