@@ -31,13 +31,14 @@ class BlogIndex extends React.Component {
                   {title}
                 </Link>
               </h1>
-              <p
+              <ul
                 style={{
                   marginBottom: `${rhythm(3 / 4)}`
                 }}
                 className={mainStyles.meta}>
-                {node.frontmatter.date}
-              </p>
+                <li>— {node.frontmatter.date}</li>
+                <li>// {node.frontmatter.tag}</li>
+              </ul>
               <p
                 dangerouslySetInnerHTML={{
                   __html: node.frontmatter.description || node.excerpt,

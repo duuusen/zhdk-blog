@@ -5,6 +5,7 @@ module.exports = {
     description: `Blog for BA Interaction Design, Zurich University of the Arts, ZHdK`,
     siteUrl: `https://blog.duy.ch`,
     social: {
+      twitter: `duuusen`,
       instagram: `duuusen`,
     },
   },

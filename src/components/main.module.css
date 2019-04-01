@@ -1,6 +1,11 @@
 .meta {
   font-family: Inconsolata;
-  display: inline-block;
+  list-style: none;
+  margin-left: 0;
+}
+.meta li {
+    display: inline-block;
+    margin: 0 10px 0 0;
 }
 .postNav {
   margin: 0;
