@@ -1,64 +1,49 @@
 import React from "react"
 import { Link } from "gatsby"
-import Sidebar from "./sidebar"
-import sidebarStyles from "./sidebar.module.css"
-// import Logo from "../../content/assets/logo.svg"
-
+import headerStyles from "./header.module.css"
 import { rhythm, scale } from "../utils/typography"
 
 class Layout extends React.Component {
   render() {
-    const { title, children } = this.props
-    let sidebar
-      sidebar = (
-        <div className={sidebarStyles.sidebarContainer}>
-        <div className={sidebarStyles.logo}>
-          <Link to={'/'} />
-        </div>
-        <h1
-          style={{
-            ...scale(.3),
-            margin: 0,
-          }}
-        >
-          <Link
-            style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
-            }}
-            to={'/'}
-          >
-            {title}
-          </Link>
-        </h1>
-        </div>
-      )
+    const { location, title, children } = this.props
+    const rootPath = `${__PATH_PREFIX__}/`
+    let header
+    if (location.pathname === rootPath) {
+  header = (
+    <header className={headerStyles.header}>
+    <div className={headerStyles.logo}>
+      <Link to={'/'} />
+    </div>
+    </header>
+  )
+} else {
+  header = (
+    <header className={headerStyles.header}>
+    <div className={headerStyles.logo}>
+      <Link to={'/'} />
+    </div>
+    </header>
+  )
+}
     return (
       <div
         style={{
           marginLeft: `auto`,
           marginRight: `auto`,
           maxWidth: rhythm(24),
-          padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+          padding: `${rhythm(3 / 4)}`,
             overrideStyles: ({ adjustFontSizeTo, rhythm }, options, styles) => ({
-                      'h1, h2, h3, h4, h5': {
-                                    color: '#f44242'
-                                },
-                      '@media screen and (min-width: 760px){h3{font-size:200px}}': {},
-                  })
-        }}
+              'h1, h2, h3, h4, h5': {
+                color: '#f44242',
+                marginTop: '0'
+              }
+            })
+          }}
       >
-        <Sidebar>{sidebar}</Sidebar>
+        {header}
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
       </div>
     )
   }
 }
 export default Layout
-

@@ -1,8 +1,8 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
 import Layout from "../components/layout"
+import mainStyles from "../components/main.module.css"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
 
@@ -18,25 +18,23 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
-        <h1>{post.frontmatter.title}</h1>
-        <p
+        <h1
           style={{
-            ...scale(-1 / 5),
-            display: `block`,
-            marginBottom: rhythm(1),
-            marginTop: rhythm(-1),
+            marginBottom: rhythm(1 / 16),
           }}
         >
-          {post.frontmatter.date}
-        </p>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        <hr
+      {post.frontmatter.title}
+      </h1>
+        <ul
           style={{
-            marginBottom: rhythm(1),
+            ...scale(-1 / 800),
+            marginBottom: `${rhythm(3 / 4)}`
           }}
-        />
-        <Bio />
-
+          className={mainStyles.meta}>
+          <li>— {post.frontmatter.date}</li>
+          <li>// {post.frontmatter.tag}</li>
+        </ul>
+        <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <ul
           style={{
             display: `flex`,
@@ -45,6 +43,7 @@ class BlogPostTemplate extends React.Component {
             listStyle: `none`,
             padding: 0,
           }}
+          className={mainStyles.postNav}
         >
           <li>
             {previous && (
@@ -73,7 +72,6 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
-        author
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
@@ -83,6 +81,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        tag
         description
       }
     }

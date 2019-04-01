@@ -1,0 +1,64 @@
+.logo {
+  position: fixed;
+  background: url(../../content/assets/logo.svg) no-repeat;
+  background-size: contain;
+  background-position: center top;
+  transform-origin: center center;
+ }
+ .logo:hover {
+   animation-play-state: running;
+   animation-name: shake-crazy;
+   animation-duration: 100ms;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: infinite; 
+ }
+.logo, .logo a {
+  display: block;
+  border: none;
+  top: 40px;
+  left: 40px;
+  width: 80px;
+  height: 100px;
+}
+@media (max-width: 1060px) {
+  .logo {
+    position: static;
+  }
+  .logo, .logo a {
+    margin: -15px auto 0;
+    width: 60px;
+    height: 80px;
+  }
+} 
+@keyframes shake-crazy {
+  10% {
+    transform: translate(16px, 11px) rotate(5deg);
+    opacity: 0.14; }
+  20% {
+    transform: translate(17px, -8px) rotate(8deg);
+    opacity: 0.46; }
+  30% {
+    transform: translate(9px, 8px) rotate(5deg);
+    opacity: 0.22; }
+  40% {
+    transform: translate(16px, 14px) rotate(1deg);
+    opacity: 0.92; }
+  50% {
+    transform: translate(1px, 11px) rotate(4deg);
+    opacity: 0.2; }
+  60% {
+    transform: translate(13px, -10px) rotate(-4deg);
+    opacity: 0.72; }
+  70% {
+    transform: translate(6px, -10px) rotate(-3deg);
+    opacity: 0.2; }
+  80% {
+    transform: translate(11px, -18px) rotate(8deg);
+    opacity: 0.7; }
+  90% {
+    transform: translate(-10px, -18px) rotate(9deg);
+    opacity: 0.34; }
+  0%, 100% {
+    transform: translate(0, 0) rotate(0);
+  }
+}

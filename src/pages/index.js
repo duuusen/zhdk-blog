@@ -1,8 +1,8 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
 import Layout from "../components/layout"
+import mainStyles from "../components/main.module.css"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 
@@ -18,21 +18,27 @@ class BlogIndex extends React.Component {
           title="All posts"
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
         />
-        <Bio />
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
             <div key={node.fields.slug}>
-              <h3
+              <h1
                 style={{
-                  marginBottom: rhythm(1 / 4),
+                  marginBottom: rhythm(1 / 16),
                 }}
               >
                 <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
                   {title}
                 </Link>
-              </h3>
-              <small>{node.frontmatter.date}</small>
+              </h1>
+              <ul
+                style={{
+                  marginBottom: `${rhythm(3 / 4)}`
+                }}
+                className={mainStyles.meta}>
+                <li>— {node.frontmatter.date}</li>
+                <li>// {node.frontmatter.tag}</li>
+              </ul>
               <p
                 dangerouslySetInnerHTML={{
                   __html: node.frontmatter.description || node.excerpt,
@@ -64,6 +70,7 @@ export const pageQuery = graphql`
           }
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
+            tag
             title
             description
           }

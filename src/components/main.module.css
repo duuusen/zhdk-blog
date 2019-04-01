@@ -1,0 +1,12 @@
+.meta {
+  font-family: Inconsolata;
+  list-style: none;
+  margin-left: 0;
+}
+.meta li {
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
+.postNav {
+  margin: 80px 0 0 0;
+}
