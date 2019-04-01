@@ -1,5 +1,3 @@
-.main {
-  @media (max-width: 1024px) {
-    font-size: scale(0.1);
-  }
+.meta {
+  display: block;
 }

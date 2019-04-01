@@ -21,7 +21,7 @@ const typography = new Typography({
     h1: {
       paddingBottom: `calc(${rhythm(1 / 4)} - 1px)`,
       marginBottom: rhythm(3 / 4),
-      marginTop: rhythm(1.5),
+      marginTop: rhythm(1),
     },
     h2: {
       paddingBottom: `calc(${rhythm(1 / 4)} - 1px)`,

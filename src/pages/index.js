@@ -2,6 +2,7 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
+import mainStyles from "../components/main.module.css"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 
@@ -23,14 +24,20 @@ class BlogIndex extends React.Component {
             <div key={node.fields.slug}>
               <h1
                 style={{
-                  marginBottom: rhythm(1 / 4),
+                  marginBottom: rhythm(1 / 16),
                 }}
               >
                 <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
                   {title}
                 </Link>
               </h1>
-              <small>{node.frontmatter.date}</small>
+              <p
+                style={{
+                  marginBottom: `${rhythm(3 / 4)}`
+                }}
+                className={mainStyles.meta}>
+                {node.frontmatter.date}
+              </p>
               <p
                 dangerouslySetInnerHTML={{
                   __html: node.frontmatter.description || node.excerpt,

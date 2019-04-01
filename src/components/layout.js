@@ -34,7 +34,8 @@ class Layout extends React.Component {
           padding: `${rhythm(3 / 4)}`,
             overrideStyles: ({ adjustFontSizeTo, rhythm }, options, styles) => ({
               'h1, h2, h3, h4, h5': {
-                color: '#f44242'
+                color: '#f44242',
+                marginTop: '0'
               }
             })
           }}

@@ -1,5 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import mainStyles from "../components/main.module.css"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -17,15 +18,14 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
-        <h1>{post.frontmatter.title}</h1>
-        <p
+        <h1
           style={{
-            ...scale(-1 / 5),
-            display: `block`,
-            marginBottom: rhythm(1),
-            marginTop: rhythm(-1),
+            marginBottom: rhythm(1 / 16),
           }}
         >
+      {post.frontmatter.title}
+      </h1>
+        <p className={mainStyles.meta}>
           {post.frontmatter.date}
         </p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
