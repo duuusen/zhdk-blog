@@ -27,6 +27,7 @@ class BlogPostTemplate extends React.Component {
       </h1>
         <ul
           style={{
+            ...scale(-1 / 800),
             marginBottom: `${rhythm(3 / 4)}`
           }}
           className={mainStyles.meta}>
@@ -34,11 +35,6 @@ class BlogPostTemplate extends React.Component {
           <li>// {post.frontmatter.tag}</li>
         </ul>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        <hr
-          style={{
-            marginBottom: rhythm(1),
-          }}
-        />
         <ul
           style={{
             display: `flex`,

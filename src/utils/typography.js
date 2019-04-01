@@ -30,6 +30,9 @@ const typography = new Typography({
     },
     h6: {
     },
+    'h1 a': {
+      border: 'none',
+    },
     "h3,h4,h5,h6": {
       marginBottom: rhythm(1 / 2),
       marginTop: rhythm(1),
@@ -42,11 +45,22 @@ const typography = new Typography({
       marginLeft: rhythm(1.25),
     },
     a: {
-      color: "#4078c0",
-      textDecoration: "none",
+      color: "hsla(0,0%,0%,0.8)",
+      textDecoration: 'none',
+      borderBottom: '2px solid hsla(0,0%,0%,0.2)',
+      paddingBottom: '3px',
     },
-    "a:hover,a:active": {
-      textDecoration: "underline",
+    '.gatsby-resp-image-link': {
+        border: 'none',
+    },
+    "a:hover": {
+      borderBottomColor: 'hsla(0,0%,0%,0.8)',
+      transition: 'border-bottom-color 300ms linear',
+      '-webkit-transition': 'border-bottom-color 300ms linear',
+      '-ms-transition': 'border-bottom-color 300ms linear',
+      '-moz-transition': 'border-bottom-color 300ms linear',
+    },
+    'a:active': {
     },
     blockquote: {
       borderLeft: `4px solid #eee`,

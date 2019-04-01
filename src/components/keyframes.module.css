@@ -1,35 +1,3 @@
-.logo {
-  position: fixed;
-  background: url(../../content/assets/logo.svg) no-repeat;
-  background-size: contain;
-  background-position: center top;
-  transform-origin: center center;
- }
- .logo:hover {
-   animation-play-state: running;
-   animation-name: shake-crazy;
-   animation-duration: 100ms;
-   animation-timing-function: ease-in-out;
-   animation-iteration-count: infinite; 
- }
-.logo, .logo a {
-  display: block;
-  border: none;
-  top: 40px;
-  left: 40px;
-  width: 80px;
-  height: 100px;
-}
-@media (max-width: 1060px) {
-  .logo {
-    position: static;
-  }
-  .logo, .logo a {
-    margin: -15px auto 0;
-    width: 60px;
-    height: 80px;
-  }
-} 
 @keyframes shake-crazy {
   10% {
     transform: translate(16px, 11px) rotate(5deg);
