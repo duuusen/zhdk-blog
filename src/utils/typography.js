@@ -4,7 +4,7 @@ import GTAme from "../fonts/gtame.ttf"
 const typography = new Typography({
   baseFontSize: "24px",
   baseLineHeight: 1.63,
-  scaleRatio: 2,
+  scaleRatio: 1.5,
   googleFonts: [
     {
       name: "Inconsolata",
