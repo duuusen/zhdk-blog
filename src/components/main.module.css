@@ -1,3 +1,7 @@
 .meta {
-  display: block;
+  font-family: Inconsolata;
+  display: inline-block;
+}
+.postNav {
+  margin: 0;
 }

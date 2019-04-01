@@ -25,8 +25,13 @@ class BlogPostTemplate extends React.Component {
         >
       {post.frontmatter.title}
       </h1>
-        <p className={mainStyles.meta}>
+        <p
+          style={{
+            marginBottom: `${rhythm(3 / 4)}`
+          }}
+          className={mainStyles.meta}>
           {post.frontmatter.date}
+          {post.frontmatter.tag}
         </p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
@@ -42,6 +47,7 @@ class BlogPostTemplate extends React.Component {
             listStyle: `none`,
             padding: 0,
           }}
+          className={mainStyles.postNav}
         >
           <li>
             {previous && (
@@ -70,7 +76,6 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
-        author
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
@@ -80,6 +85,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        tag
         description
       }
     }
