@@ -1,3 +1,9 @@
+body {
+  background-color: #1A1A1A; 
+}
+.blogpost {
+  margin-bottom: 100px;
+}
 .meta {
   font-family: Inconsolata;
   list-style: none;

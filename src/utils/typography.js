@@ -2,7 +2,7 @@ import Typography from "typography"
 import GTAme from "../fonts/gtame.ttf"
 
 const typography = new Typography({
-  baseFontSize: "24px",
+  baseFontSize: "26px",
   baseLineHeight: 1.63,
   scaleRatio: 1.5,
   googleFonts: [
@@ -13,7 +13,7 @@ const typography = new Typography({
   ],
   bodyFontFamily: ["GTAme","Helvetica Neue","serif"],
   headerFontFamily: ["GTAme","Helvetica Neue","serif"],
-  bodyColor: "hsla(0,0%,0%,0.8)",
+  bodyColor: "#BDBDBD",
   headerWeight: 400,
   bodyWeight: 400,
   boldWeight: 700,
@@ -31,6 +31,7 @@ const typography = new Typography({
     h6: {
     },
     'h1 a': {
+      color: '#009393',
       border: 'none',
     },
     "h3,h4,h5,h6": {
@@ -45,16 +46,16 @@ const typography = new Typography({
       marginLeft: rhythm(1.25),
     },
     a: {
-      color: "hsla(0,0%,0%,0.8)",
+      color: "#BDBDBD",
       textDecoration: 'none',
-      borderBottom: '2px solid hsla(0,0%,0%,0.2)',
+      borderBottom: '2px solid #616161',
       paddingBottom: '3px',
     },
     '.gatsby-resp-image-link': {
         border: 'none',
     },
     "a:hover": {
-      borderBottomColor: 'hsla(0,0%,0%,0.8)',
+      borderBottomColor: '#BDBDBD',
       transition: 'border-bottom-color 300ms linear',
       '-webkit-transition': 'border-bottom-color 300ms linear',
       '-ms-transition': 'border-bottom-color 300ms linear',
@@ -63,7 +64,7 @@ const typography = new Typography({
     'a:active': {
     },
     blockquote: {
-      borderLeft: `4px solid #eee`,
+      borderLeft: `4px solid #757575`,
       marginTop: 0,
       marginRight: 0,
       marginLeft: 0,
