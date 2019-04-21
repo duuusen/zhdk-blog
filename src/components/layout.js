@@ -42,6 +42,9 @@ class Layout extends React.Component {
       >
         {header}
         <main>{children}</main>
+        <footer>
+        <p>---<br/>Duy Bui<br/>Blog for BA Interaction Design at <a href="https://interactiondesign.zhdk.ch">Zurich Unversity of the Arts</a></p>
+        </footer>
       </div>
     )
   }
