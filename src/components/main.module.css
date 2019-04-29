@@ -1,8 +1,12 @@
+@font-face {
+  font-family: GTAme;
+  src: url('../../content/assets/GTAme.ttf');
+}
 body {
   background-color: #1A1A1A; 
 }
 .blogpost {
-  margin-bottom: 100px;
+  margin-bottom: 4rem;
 }
 .meta {
   font-family: Inconsolata;
@@ -11,15 +15,15 @@ body {
 }
 .meta li {
     display: inline-block;
-    margin: 0 10px 0 0;
+    margin: 0 1rem 0 0;
 }
 .postNav {
-  margin: 80px 0 0 0;
+  margin: 5rem 0 0 0;
 }
 footer p {
   font-family: inconsolata, monospaced;
   color: #FFDA18;
-  padding-top: 150px;
+  padding-top: 5rem;
 }
 footer a {
   color: #FFDA18;
@@ -27,4 +31,12 @@ footer a {
 }
 footer a:hover {
   border-color: #FFDA18;
+}
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 100%;
+  }
+  .blogpost {
+    margin-bottom: 2rem;
+  }
 }
