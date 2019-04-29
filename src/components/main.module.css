@@ -34,7 +34,7 @@ footer a:hover {
 }
 @media only screen and (max-width: 480px) {
   html {
-    font-size: 100%;
+    font-size: 110%;
   }
   .blogpost {
     margin-bottom: 2rem;
