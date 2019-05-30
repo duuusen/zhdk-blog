@@ -1,6 +1,6 @@
 ---
 title: Anthropology of Hacking
-date: "2019-04-15"
+date: "2019-04-15T22:12:03.284Z"
 tag: Technology and Society
 ---
 # Reading Notes
@@ -16,7 +16,7 @@ tag: Technology and Society
 - youth culture - opernhauskrawalle
 - mass direct action
 - protest \> critical mass, environment protest, klimastreik
-- emancipation \> space outside the 'system' 
+- emancipation \> space outside the 'system'
 - Media activism \> radio, computer, internet
 
 - I find core strength: "lowering the barriers of participation for cultural and technological production"
@@ -62,4 +62,4 @@ lack of knowledge? just a **movement**?
 - Open cryptography for everyone (allowed for e-commerce) in 1990
 
 - Exercise critical questioning
-- 
+-

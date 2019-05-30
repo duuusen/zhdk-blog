@@ -1,19 +1,19 @@
 ---
 title: Literacy
-date: "2019-04-08"
+date: "2019-04-08T22:12:03.284Z"
 tag: Technology and Society
 ---
 Hoggart \> should not romantisise
 Papanek \> romanticising about the people he designs for
 - What is the own ability of the designer to criticise what he or she is doing and dedicate a bit of own time to work for non profit social projects?
 - Same movement of liberation. Most bought products are not made for liberation and have a culture of secrecy \> you can't open them, repair them.
-- 
+-
 
 High education does not necessarily correlate to an understanding about information, sources and how to deal with them (like posting crap on facebook)
 
 The computer sees us as a big finger with eyes - challenge to include the whole body in the interaction
 
-Literacy in high technology 
+Literacy in high technology
 - Even though the source code is available, it is hard to read and verify it. And to verify, that the makers implement this code on their servers.
 
 You have to leave a little freedom to the people. Otherwise, they have nothing to lose, and there will be revolution.

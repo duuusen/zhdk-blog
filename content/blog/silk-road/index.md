@@ -1,6 +1,6 @@
 ---
 title:  Silk Road
-date: "2019-05-20"
+date: "2019-05-20T22:12:03.284Z"
 tag: Technology and Society
 ---
 - Greco Buddhism \> People from Europe left behind influenced culture and style from that era.
@@ -16,9 +16,9 @@ tag: Technology and Society
 Silk Road
 - Trade roads covering vast parts of the norther hemisphere
 - Several routes, decentralised networks with different merchants traveling on them
-- Black death originating in East Asia reaching Europe around 14th century 
+- Black death originating in East Asia reaching Europe around 14th century
 
-Belt and Road Initiative 
+Belt and Road Initiative
 - global infrastructure network initiative from China
 - Expansion of West Trade Routes through Pakistan \> historical conflicts with e.g. India that led to this development, which is important for oil import from Iran
 
@@ -45,4 +45,3 @@ Chinese Market
 
 Art Project
 - Holo thingy: Hong Kong will disappear from Chinese sight and vice versa
-

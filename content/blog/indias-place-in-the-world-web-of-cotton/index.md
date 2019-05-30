@@ -1,6 +1,6 @@
 ---
 title:  India's Place in the World Web of Cotton
-date: "2019-05-13"
+date: "2019-05-13T22:12:03.284Z"
 tag: Technology and Society
 ---
 
@@ -20,7 +20,7 @@ tag: Technology and Society
 
 - Commodity Chain \> Coffee consumption looks different in Palestine and Vienna \> taking commodity as red thread of global history \> follow your product and try to make sense of global correlations
 
-- Cotton most prominent commodity \> important of technological innovation, ubiquitous 
+- Cotton most prominent commodity \> important of technological innovation, ubiquitous
 
 ## South Asia, Atlantic World and Emergence of Cotton as Global Commodity
 - Global center of production becomes clear \> First in south then also in north India \> Production, weaving, dying
@@ -35,10 +35,10 @@ tag: Technology and Society
 
 - Slave trade was funded with cotton \> 80% was slaves for cotton \> **cotton was the heart of slave trading**
 - Only sugar was more lucrative than cotton \> sugar was cultivated in the Carribbean and based on slave labour \> only slaves from Africa proved resilient to Carribean and South American climate
-- Europe \> growing it's own cotton 
+- Europe \> growing it's own cotton
 
 - 1000 - 1500: Local linkages, no global web of cotton
-- 1500 - 1780: No stark hierarchies 
+- 1500 - 1780: No stark hierarchies
 - 1780: European entering the system changed it massively, dominating entire trade
 	- Naval power, colonialism, seizure of land, slave labour, invention of spinning machines
 
@@ -74,5 +74,3 @@ tag: Technology and Society
 - North and South in war \> going back to India
 - India enters global system again and becomes a global player of cotton by 1862
 - Center of Mumbai: Money to burn
-
-

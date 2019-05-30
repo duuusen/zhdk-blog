@@ -1,11 +1,11 @@
 ---
-title:  On the History and Empowerment of West African Workers 
-date: "2019-04-29"
+title:  On the History and Empowerment of West African Workers
+date: "2019-04-29T22:12:03.284Z"
 tag: Technology and Society
 ---
 
 - Contract-workers were dominant and preferred
-- No trickle down of rapid economy development 
+- No trickle down of rapid economy development
 - Colonial export production continue the practice of unfree and forced labour
 - Trade and currency liberalisation forced labour out of formal settings into 'informal' ones
 - work reshaped by survival rather than modernisation
@@ -33,4 +33,4 @@ State led development and decolonisation
 Empowerment
 - Know-how of production of goods, so that they can do the production themselves
 - Impression that huge amount of local knowledge is there, we are just imposing how things should be on them. The Italian way of roasting may not be the ultimate way, local roasters do it differently but that's not 'wrong'
-- 
+-
