@@ -1,7 +1,7 @@
 ---
 title: Accelerationism
 date: "2019-04-29T22:12:03.284Z"
-tag: Technology and Society
+tag: "Technology and Society"
 ---
 
 90s: Lots of drugs, lots of internet. Democratisation of things.

@@ -1,7 +1,7 @@
 ---
 title: Literacy
 date: "2019-04-08T22:12:03.284Z"
-tag: Technology and Society
+tag: "Technology and Society"
 ---
 Hoggart \> should not romantisise
 Papanek \> romanticising about the people he designs for

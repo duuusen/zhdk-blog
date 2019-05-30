@@ -1,7 +1,7 @@
 ---
 title:  On the History and Empowerment of West African Workers
 date: "2019-04-29T22:12:03.284Z"
-tag: Technology and Society
+tag: "Technology and Society"
 ---
 
 - Contract-workers were dominant and preferred

@@ -1,7 +1,7 @@
 ---
 title:  India's Place in the World Web of Cotton
 date: "2019-05-13T22:12:03.284Z"
-tag: Technology and Society
+tag: "Technology and Society"
 ---
 
 ## What is global history? Analysis of commodity chains

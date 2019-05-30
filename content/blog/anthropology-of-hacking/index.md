@@ -1,7 +1,7 @@
 ---
 title: Anthropology of Hacking
 date: "2019-04-15T22:12:03.284Z"
-tag: Technology and Society
+tag: "Technology and Society"
 ---
 # Reading Notes
 ## Maxigas

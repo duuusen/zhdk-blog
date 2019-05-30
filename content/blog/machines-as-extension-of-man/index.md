@@ -1,7 +1,7 @@
 ---
 title: Machines as Extensions of Man
 date: "2015-05-01T22:12:03.284Z"
-tag: Technology and Society
+tag: "Technology and Society"
 ---
 
 Computers as extension of man
@@ -24,7 +24,7 @@ We can not predict the future \> engineers and designers sometimes forget
 When we design systems, where all possible actions are planned, without margins for interpretation, then it is a static system. It cannot adapt to the environment and new input.
 
 Suchman: Interviewed and observed people when they go to the photocopier. Just a little part of people go to the copier to do copies. Most of the people are distracted, not focused and don’t know why they are there.
-She as an anthropologist had to ‘tell’ the designers, that the users are people. 
+She as an anthropologist had to ‘tell’ the designers, that the users are people.
 Paper shows how you navigate and steer through a project.
 
 What does it mean to design for people and to design for computers that are for humans
@@ -38,6 +38,3 @@ Value the capacity and abilities of the machines, rather than trying to replicat
 ## Assignment
 - 1 page max, two or three red line topics. Articulate these red lines from these texts
 -  
-
-
-
