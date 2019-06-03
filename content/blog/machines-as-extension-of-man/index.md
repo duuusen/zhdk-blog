@@ -1,6 +1,6 @@
 ---
 title: Machines as Extensions of Man
-date: "2015-05-01T22:12:03.284Z"
+date: "2019-04-01"
 tag: "Technology and Society"
 ---
 

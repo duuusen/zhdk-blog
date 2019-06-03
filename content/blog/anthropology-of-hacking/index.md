@@ -1,6 +1,6 @@
 ---
 title: Anthropology of Hacking
-date: "2019-04-15T22:12:03.284Z"
+date: "2019-04-15"
 tag: "Technology and Society"
 ---
 # Reading Notes

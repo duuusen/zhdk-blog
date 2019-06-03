@@ -1,6 +1,6 @@
 ---
 title: Accelerationism
-date: "2019-04-29T22:12:03.284Z"
+date: "2019-04-29"
 tag: "Technology and Society"
 ---
 

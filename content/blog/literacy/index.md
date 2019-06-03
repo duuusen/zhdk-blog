@@ -1,6 +1,6 @@
 ---
 title: Literacy
-date: "2019-04-08T22:12:03.284Z"
+date: "2019-04-08"
 tag: "Technology and Society"
 ---
 Hoggart \> should not romantisise

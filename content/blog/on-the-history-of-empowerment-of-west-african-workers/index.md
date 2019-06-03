@@ -1,6 +1,6 @@
 ---
 title:  On the History and Empowerment of West African Workers
-date: "2019-04-29T22:12:03.284Z"
+date: "2019-05-06"
 tag: "Technology and Society"
 ---
 

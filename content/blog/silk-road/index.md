@@ -1,6 +1,6 @@
 ---
 title:  Silk Road
-date: "2019-05-20T22:12:03.284Z"
+date: "2019-05-20"
 tag: "Technology and Society"
 ---
 - Greco Buddhism \> People from Europe left behind influenced culture and style from that era.
