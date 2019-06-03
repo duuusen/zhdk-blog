@@ -1,5 +1,4 @@
 import Typography from "typography"
-import GTAme from "../fonts/gtame.ttf"
 
 const typography = new Typography({
   baseFontSize: "26px",

@@ -1,11 +1,11 @@
 import React from "react"
 import { Link } from "gatsby"
 import headerStyles from "./header.module.css"
-import { rhythm, scale } from "../utils/typography"
+import { rhythm } from "../utils/typography"
 
 class Layout extends React.Component {
   render() {
-    const { location, title, children } = this.props
+    const { location, children } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
     let header
     if (location.pathname === rootPath) {
