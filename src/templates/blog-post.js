@@ -32,7 +32,7 @@ class BlogPostTemplate extends React.Component {
           }}
           className={mainStyles.meta}>
           <li>— {post.frontmatter.date}</li>
-          <li>{post.frontmatter.tag}</li>
+          <li>// {post.frontmatter.tag}</li>
         </ul>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <ul
