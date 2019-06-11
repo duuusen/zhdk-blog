@@ -12,7 +12,7 @@ const typography = new Typography({
   ],
   bodyFontFamily: ["GTAme","Helvetica Neue","serif"],
   headerFontFamily: ["GTAme","Helvetica Neue","serif"],
-  bodyColor: "#BDBDBD",
+  bodyColor: "#9E9E9E",
   headerWeight: 400,
   bodyWeight: 400,
   boldWeight: 700,
