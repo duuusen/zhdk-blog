@@ -1,7 +1,7 @@
 import Typography from "typography"
 
 const typography = new Typography({
-  baseFontSize: "26px",
+  baseFontSize: "24px",
   baseLineHeight: 1.63,
   scaleRatio: 1.5,
   googleFonts: [
@@ -43,6 +43,9 @@ const typography = new Typography({
     // children ol, ul
     "li>ol,li>ul": {
       marginLeft: rhythm(1.25),
+    },
+    p: {
+       marginBottom: 0,
     },
     a: {
       color: "#BDBDBD",

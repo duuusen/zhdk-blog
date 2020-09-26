@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import headerStyles from "./header.module.css"
-import { rhythm } from "../utils/typography"
+import { rhythm, scale } from "../utils/typography"
 
 class Layout extends React.Component {
   render() {
@@ -30,7 +30,7 @@ class Layout extends React.Component {
         style={{
           marginLeft: `auto`,
           marginRight: `auto`,
-          maxWidth: rhythm(24),
+          maxWidth: rhythm(20),
           padding: `${rhythm(3 / 4)}`,
             overrideStyles: ({ adjustFontSizeTo, rhythm }, options, styles) => ({
               'h1, h2, h3, h4, h5': {
@@ -42,7 +42,13 @@ class Layout extends React.Component {
       >
         {header}
         <main>{children}</main>
-        <footer>
+        <footer
+          style={{
+            ...scale(- 2 / 5),
+            color: '#FFDA18',
+            marginTop: `${rhythm(3)}`,
+          }}
+        >
         <p>---<br/>Duy Bui<br/>Blog for BA Interaction Design at <a href="https://interactiondesign.zhdk.ch">Zurich Unversity of the Arts</a></p>
         </footer>
       </div>
