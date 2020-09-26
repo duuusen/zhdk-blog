@@ -49,7 +49,7 @@ class Layout extends React.Component {
             marginTop: `${rhythm(3)}`,
           }}
         >
-        <p>---<br/>Duy Bui<br/>Blog for BA Interaction Design at <a href="https://interactiondesign.zhdk.ch">Zurich Unversity of the Arts</a></p>
+        <p>---<br/><a href="https://duy.ch">Duy Bui</a><br/>Blog for BA Interaction Design at <a href="https://interactiondesign.zhdk.ch">Zurich Unversity of the Arts</a></p>
         </footer>
       </div>
     )
