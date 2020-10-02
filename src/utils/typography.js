@@ -22,6 +22,10 @@ const typography = new Typography({
       marginBottom: rhythm(3 / 4),
       marginTop: rhythm(1),
     },
+    'figcaption': {
+      marginTop: rhythm(1 / 8),
+      marginLeft: rhythm(1 / 8),
+    },
     h2: {
       paddingBottom: `calc(${rhythm(1 / 4)} - 1px)`,
       marginBottom: rhythm(1 / 4),
