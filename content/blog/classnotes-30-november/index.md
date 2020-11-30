@@ -4,7 +4,7 @@ date: "2020-11-30"
 tag: Sweet Dreams Are Made of This
 ---
 
-## What does it mean to own it?
+### What does it mean to own it?
 to stand behind
 to be responsible
 as designers we have collaborators, users, mentors, participants, friends, the community > who owns what?
@@ -14,7 +14,7 @@ to be proud of
 to be there for it
 
 
-## What could fail?
+### What could fail?
 - backfires, useless for the community, turning out arrogant
 - too shallow
 - too ignorant
