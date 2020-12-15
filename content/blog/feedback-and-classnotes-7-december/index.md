@@ -1,5 +1,5 @@
 ---
-title: Classnotes 16 November
+title: Feedback and Classnotes 07 December
 date: "2020-12-07"
 tag: Sweet Dreams Are Made of This
 ---
