@@ -5,7 +5,7 @@ tag: Sweet Dreams Are Made of This
 ---
 
 ## Feedback
-I think this seminar has brought up a lot of (good) questions and inspirations towards the BA thesis. Since I already had rough ideas in mind, this seminar was really cool to advance the ideas further and kind of test them.
+I think this seminar has brought up a lot of (good) questions and inspirations towards the BA thesis. Since I already had rough ideas in mind, this seminar was really cool to advance the ideas further and kind of test them. I noticed that some were maybe a bit lost with the assignments since they didn't have a direction or idea for the thesis yet and I think you would really profit more from the seminar with some ideas or directions in mind.
 The first few inputs I found very inspiring, I liked the poster part, where we had to bring physical objects, walked around and discussed them instead of just sitting and discussing.
 
 ## Class Notes
